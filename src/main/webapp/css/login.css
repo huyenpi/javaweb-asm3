@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.loginform {
+	width: 700px;
+	height: 450px;
+	margin: 20px auto 200px;
+	box-shadow: 5px 10px 10px 5px #c0c0c0;
+}
+
+.loginform .left_column {
+	width: 50%;
+	height: auto;
+	float: left;
+	text-align: center;
+	padding: 50px;
+}
+
+.loginform .right_column {
+	width: 50%;
+	height: 450px;
+	float: left;
+	padding: 50px;
+	text-align: center;
+	color: white;
+	background-color:  #003300;
+}
+
+.loginform input[type=text], input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	background: #eeeeee;
+	border: none;
+}
+
+.loginform .left_column a {
+	text-decoration: none;
+	color: black;
+}
+
+.loginform #btn {
+	color: white;
+	font-weight: bold;
+	background: orange;
+	padding: 8px 15px;
+	margin-top: -10px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.loginform #btn:hover {
+	background-color: green;
+	box-shadow: 1px 1px 1px 1px #000022;
+}
+.loginform .left_column .error {
+	color: red;
+	margin: -6px 0;
+}
